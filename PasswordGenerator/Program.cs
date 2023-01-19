@@ -1,8 +1,12 @@
-﻿Random random = new Random();
+﻿using System.Text;
 
-Console.WriteLine("First argument: " + args[0]);
-Console.WriteLine("Second argument: " + args[1]);
+Random random = new Random();
 
+var passLength = Convert.ToInt32(args[0]);
+var pattern = args[1];
+var padding = 'l';
+var userInput = pattern.PadRight(passLength, padding);
+StringBuilder newPassword = new StringBuilder();
 
 if (!IsValid(args))
 {
@@ -10,79 +14,35 @@ if (!IsValid(args))
     return;
 }
 
-// Console.WriteLine(helpText);
-//         
-// // 1. Hvis programmet kalles uten args, skal det vise en melding. 
-// if (args.Length != 2)
-// {
-//     Console.WriteLine("Du har ikke riktig parametere.");
-//     Console.WriteLine(helpText);
-// }
-
-// 2. Hvis args inneholder akkurat 2 parametre skal disse sjekkes.
-// Første inneholder kun tall. Og har den noe annet enn tall skal meldingen vises på nytt. 
-
-// foreach (var c in args[0])
-// {
-//     if (!char.IsDigit(c))
-//     {
-//         Console.WriteLine("Du har ikke riktig parametere.");
-//         Console.WriteLine(helpText);
-//     }
-//     Console.WriteLine("Digit check: "+c);
-// }
-
-// 3. Sjekk den andre parameteren.
-// Den skal ikke inneholde noe annet enn l, L, d og s. Vis samme melding hvis denne inneholder noe annet. 
-
-// var allowedChars = "lLds";
-// foreach (var c in args[1])
-// {
-//     if (!allowedChars.Contains(c.ToString()))
-//     {
-//         Console.WriteLine(helpText);
-//     }
-//
-//     Console.WriteLine("Char check: "+c);
-// }
-
-// 4. Samle alle disse punktene over i en egen metode IsValid() som returner true/false. 
-// Lag også en egen metode ShowHelpText() som viser den nevnte meldingen. 
+Console.WriteLine("First argument - password length: " + args[0]);
+Console.WriteLine("Second argument - character criteria: " + args[1]);
 
 static bool IsValid(string[] arg)
 {
     var allowedChars = "lLds";
 
-    // 1. Hvis programmet kalles uten args, skal det vise en melding. 
     if (arg.Length != 2) return false;
 
-    // 2. Hvis args inneholder akkurat 2 parametre skal disse sjekkes.
     foreach (var c in arg[0])
     {
         if (!char.IsDigit(c)) return false;
-        Console.WriteLine("Digit check: " + c);
     }
 
-    // 3. Sjekk den andre parameteren.
     foreach (var c in arg[1])
     {
         if (!allowedChars.Contains(c.ToString())) return false;
-
-        Console.WriteLine("Char check: " + c);
     }
-
     return true;
 }
 
 static string ShowHelpText()
 {
-    const string helpText = @"PasswordGenerator  
+    const string helpText = @"PasswordGenerator by Robert L. (2023) 
 Options:
     - l = lower case letter
     - L = upper case letter
     - d = digit
     - s = special character !""#¤%&/(){}[]
-
 Example: PasswordGenerator 14 lLssdd
     Min. 1 lower case
     Min. 1 upper case
@@ -92,84 +52,61 @@ Example: PasswordGenerator 14 lLssdd
     return helpText;
 }
 
-var pattern = args[1];
-var passLength = Convert.ToInt32(args[0]);
+// Getting our random characters before shuffling to a randomized password
 
-var lowerLPad = 'l';
-var upperLPad = 'L';
-var dPad = 'd';
-var sPad = 's';
-
-var testOutput = pattern.PadRight(passLength, lowerLPad);
-
-// while løkke.
-while (testOutput.Length > 0)
+while (userInput.Length > 0)
 {
-    var last = testOutput.Remove(0, testOutput.Length - 1);
-    Console.WriteLine("Letter checked before being removed: " + last);
+    var rnd = random.Next(userInput.Length);
+    var last = userInput.Substring(rnd, 1);
+    userInput = userInput.Remove(rnd, 1);
+    
     if (last == "l")
     {
-        var randomLowL = WriteRandomLowerCaseLetter(random);
-        Console.WriteLine("Expected: lower letter, actual: " + randomLowL);
+        newPassword.Append(WriteRandomLowerCaseLetter(random));
     }
-
+    
     if (last == "L")
     {
-        var randomLowL = WriteRandomUpperCaseLetter(random);
-        Console.WriteLine("Expected: upper letter, actual: " + randomLowL);
+        newPassword.Append(WriteRandomUpperCaseLetter(random));
     }
 
     if (last == "d")
     {
-        var randomLowL = WriteRandomDigit(random);
-        Console.WriteLine("Expected: digit, actual: " + randomLowL);
+        newPassword.Append(WriteRandomDigit(random));
     }
 
     if (last == "s")
     {
-        var randomLowL = WriteRandomSpecialCharacter(random);
-        Console.WriteLine("Expected: !, actual: " + randomLowL);
+        newPassword.Append(WriteRandomSpecialCharacter(random));
     }
-
-
-    Console.WriteLine("Current word: " + testOutput);
-    testOutput = testOutput.Remove(testOutput.Length - 1);
 }
 
-
-Console.WriteLine("Test of output string: " + testOutput);
-
-static string WriteRandomLowerCaseLetter(Random random)
+static int WriteRandomDigit(Random random, int max = 10)
 {
-    const string letters = "abcdefghijklmnopqrstuvwxyz";
-    var randomIndex = random.Next(0, letters.Length - 1);
-    return letters.Remove(randomIndex, 1);
+    var randomDigit = random.Next(max);
+    return randomDigit;
 }
 
-static string WriteRandomUpperCaseLetter(Random random)
+static char WriteRandomLowerCaseLetter(Random random)
 {
-    const string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var randomIndex = random.Next(0, letters.Length - 1);
-    return letters.Remove(randomIndex, 1);
+    const string lowLetters = "abcdefghijklmnopqrstuvwxyz";
+    var randomIndex = random.Next(lowLetters.Length);
+    return lowLetters[randomIndex];
 }
 
-static string WriteRandomDigit(Random random, int min = 0, int max = 9)
+static char WriteRandomUpperCaseLetter(Random random)
 {
-    var randomDigit = random.Next(min, max);
-    return randomDigit.ToString();
+    const string upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var randomIndex = random.Next(upperLetters.Length);
+    return upperLetters[randomIndex];
 }
 
-static string WriteRandomSpecialCharacter(Random random)
+static char WriteRandomSpecialCharacter(Random random)
 {
     const string list = @"!""#¤%&/(){}[]";
-    var randomIndex = random.Next(0, list.Length - 1);
-    var special = list.Remove(randomIndex, 1);
-    return special;
+    var randomIndex = random.Next(list.Length);
+    return list[randomIndex];
 }
 
-
-Console.WriteLine("testing Random: " + WriteRandomDigit(random));
-Console.WriteLine("testing Random: " + WriteRandomDigit(random));
-Console.WriteLine("testing Random: " + WriteRandomDigit(random));
-Console.WriteLine("testing Random: " + WriteRandomDigit(random));
-Console.WriteLine("testing Random: " + WriteRandomDigit(random));
+var output = newPassword.ToString();
+Console.WriteLine($"New Password: {output}");
