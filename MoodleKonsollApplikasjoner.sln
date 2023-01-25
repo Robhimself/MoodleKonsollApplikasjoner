@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerator", "PasswordGenerator\PasswordGenerator.csproj", "{411DD4A5-68B5-4FD6-A837-0298243F9B6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PensumSjekkUke3", "PensumSjekkUke3\PensumSjekkUke3.csproj", "{84F32DC7-02A5-4197-8F2B-9013C1049B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinioppgaveNyrer", "MinioppgaveNyrer\MinioppgaveNyrer.csproj", "{6D7D9934-5F2C-42FC-9E22-52919DE7C9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurePuzzles", "PurePuzzles\PurePuzzles.csproj", "{80E6A747-4756-48DA-9895-EB38D9DBCDA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{411DD4A5-68B5-4FD6-A837-0298243F9B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411DD4A5-68B5-4FD6-A837-0298243F9B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411DD4A5-68B5-4FD6-A837-0298243F9B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F32DC7-02A5-4197-8F2B-9013C1049B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F32DC7-02A5-4197-8F2B-9013C1049B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F32DC7-02A5-4197-8F2B-9013C1049B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F32DC7-02A5-4197-8F2B-9013C1049B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7D9934-5F2C-42FC-9E22-52919DE7C9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7D9934-5F2C-42FC-9E22-52919DE7C9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7D9934-5F2C-42FC-9E22-52919DE7C9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7D9934-5F2C-42FC-9E22-52919DE7C9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

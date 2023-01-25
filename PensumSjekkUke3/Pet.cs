@@ -16,7 +16,7 @@ public class Pet
         Counter++;
     }
 
-    public void Feed(string? food)
+    public void Feed(string food)
     {
         string reply;
         if (food.Length < 2)
@@ -35,7 +35,7 @@ public class Pet
         string reply;
         if (!favorite)
         {
-            Feed(food);
+            if (food != null) Feed(food);
             return;
         }
             reply = $"{Name}: \"Mmm... {food}. That's my favorite! How did you know? Thank you very much!\"";

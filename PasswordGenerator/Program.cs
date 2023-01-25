@@ -35,7 +35,7 @@ static bool IsValid(string[] arg)
     return true;
 }
 
-static string ShowHelpText()
+static void ShowHelpText()
 {
     const string helpText = @"PasswordGenerator by Robert L. (2023) 
 Options:
@@ -49,7 +49,8 @@ Example: PasswordGenerator 14 lLssdd
     Min. 2 special characters
     Min. 2 digits
 ";
-    return helpText;
+    Console.WriteLine(helpText);
+    
 }
 
 // Getting our random characters before shuffling to a randomized password

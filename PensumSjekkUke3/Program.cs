@@ -14,7 +14,7 @@ Console.WriteLine($"Din nye hest heter: {hest.Name}.");
 Console.WriteLine(Pet.Counter);
 
 var katt = new Pet("Fredrik", 2, "Hvit");
-Console.WriteLine($"Din nye hest heter: {hest.Name}.");
+Console.WriteLine($"Din nye hest heter: {katt.Name}.");
 Console.WriteLine(Pet.Counter);
 
 hest.Feed("Høy", true);

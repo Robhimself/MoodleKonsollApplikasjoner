@@ -1,0 +1,15 @@
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.csproj.AssemblyReference.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.AssemblyInfoInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.AssemblyInfo.cs
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.csproj.CoreCompileInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\bin\Debug\net6.0\PurePuzzles.exe
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\bin\Debug\net6.0\PurePuzzles.deps.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\bin\Debug\net6.0\PurePuzzles.runtimeconfig.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\bin\Debug\net6.0\PurePuzzles.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\bin\Debug\net6.0\PurePuzzles.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\refint\PurePuzzles.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\PurePuzzles.genruntimeconfig.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\PurePuzzles\obj\Debug\net6.0\ref\PurePuzzles.dll
