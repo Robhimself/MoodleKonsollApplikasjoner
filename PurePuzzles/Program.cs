@@ -1,14 +1,16 @@
 ﻿
-
-const string hash = "#";
-const string whiteSpace = " ";
+/*
+Merk at de eneste kallene på Console.Write og Console.WriteLine du har lov 
+til å gjøre er Console.Write("#"), Console.Write(" ") og Console.WriteLine. 
+Uten denne litt kunstige regelen, gir ikke disse oppgavene noen mening.
+*/
 
 // Methods for printing character using loops.
 void PrintSpace(int times)
 {
     for (var i = 0; i < times; i++)
     {
-        Console.Write(whiteSpace);
+        Console.Write(" ");
     }
 }
 
@@ -16,10 +18,9 @@ void PrintHash(int times)
 {
     for (var i = 0; i < times; i++)
     {
-        Console.Write(hash);
+        Console.Write("#");
     }
 }
-
 
 /* 2-1 Write a program that produces the following shape:
 ########
@@ -39,7 +40,7 @@ void ShowHalfDiamond()
         var symmetricSpace = space * 2;
         var totalHash = lineLenght - symmetricSpace;
         
-        PrintSpace(i);
+        PrintSpace(space);
         PrintHash(totalHash);
         Console.WriteLine();
     }
@@ -66,11 +67,11 @@ void ShowDiamond()
     for (var i = lines; i > 0; i--)
     {
         var space = i;
-        var symmetricSpace = i * 2;
+        var symmetricSpace = space * 2;
         var totalHash = lineLenght - symmetricSpace;
         
         PrintSpace(space);
-        PrintHash(totalHash);
+        PrintHash(totalHash); // (lineLength - (i * 2))
         Console.WriteLine();
     }
     ShowHalfDiamond();
@@ -106,10 +107,10 @@ void ShowCross()
         }
         else
         {
-            space = lines - (i+1); // i = 4, 8 - 4+1 = 2. 
-            singleHash = lines - i; // 3
-            totalHash = singleHash * 2; // i = 5, 3*2 = 6
-            middleSpace = lineLenght - totalHash - (space * 2); // 14 - 6 - 2*2 = 4
+            space = lines - (i+1); // i = 4, 8 - 4+1 = 3. 
+            singleHash = lines - i; // 4
+            totalHash = singleHash * 2; // i = 4, 4*2 = 8
+            middleSpace = lineLenght - totalHash - (space * 2); // 14 - 8 - 3*2 = 0
         }
         
         PrintSpace(space);
@@ -128,32 +129,28 @@ identifying the length of the longest word, the greatest number of vowels
 in a word, and/or any other statistics you can think of.
 */
 
-int CountVowels(string word)
+int CountVowels(string word) // Used in ShowLineStats()
 {
     char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
-    int vowelCount = 0;
-    for (var i = 0; i < vowels.Length; i++)
-    {
-        for (var j = 0; j < word.Length; j++)
-        {
-            if (word[j] == vowels[i])
-            {
-                vowelCount++;
-            }
-        }
-    }
-    return vowelCount;
+    return vowels.Sum(vowel => word.Count(letter => letter == vowel));  // Resharper magic
 }
 
 void ShowLineStats()
 {
     Console.Write("Input a sentence to analyze: ");
-    var userInput = Console.ReadLine(); // ?? throw new ArgumentNullException("Console.ReadLine()");
-    var inputArray = userInput.Split(' ');
-    var longestWord = inputArray.OrderByDescending( s => s.Length ).First();
-    var mostVowels = new int[inputArray.Length];
     
-        
+    var userInput = Console.ReadLine();
+    
+    if (string.IsNullOrEmpty(userInput)) // Recursive Null check
+    {
+        ShowLineStats();
+        return;
+    }
+    
+    var inputArray = userInput.Split(' ');
+    var longestWord = inputArray.OrderByDescending( s => s.Length ).First(); // a LINQ method
+    var mostVowels = new int[inputArray.Length];
+
     // Getting the word(s) with the most vowels.
 
     for (var i = 0; i < inputArray.Length; i++)
@@ -162,38 +159,17 @@ void ShowLineStats()
         mostVowels[i] = amount;
     }
 
+
     var maxVowelValue = mostVowels.Max();
-    var maxVowelIndex = mostVowels.ToList().IndexOf(maxVowelValue);
+    var maxVowelIndex = Array.IndexOf(mostVowels,maxVowelValue); // Keeps the array without converting to List with .ToList()-method from StackOverflow. 
     
-    
-    //
-    // if (mostVowels.Length == 0)
-    // {
-    //     Console.WriteLine("None of the words contain a vowel. Amazing...");
-    // }
-    // else if (mostVowels.Length > 1)
-    // {
-    //     var appendedWordString = "";
-    //     foreach (var word in mostVowels)
-    //     {
-    //         appendedWordString = word + " " + appendedWordString;
-    //     }
-    //     Console.WriteLine($"The words with the most vowels are: {appendedWordString}.");
-    // }
-    // else
-    // {
-    //     Console.WriteLine($"The word with the most vowels is {mostVowels[maxVowelIndex]}.");
-    // }
-    
-    
+ 
     // int totalCharacters
     Console.WriteLine($"Your sentence contains {inputArray.Length} words.");
     Console.WriteLine($"The longest word in your sentence is \"{longestWord}\", it contains {longestWord.Length} letters.");
     Console.WriteLine($"The word with the most vowels is: \"{inputArray[maxVowelIndex]}\". It has {maxVowelValue} vowels.");
     Console.WriteLine($"Total characters in your sentence: {userInput.Length}.");
 }
-
-
 
 // Running the code:
 
