@@ -1,0 +1,15 @@
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\bin\Debug\net6.0\SolvingArrays.exe
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\bin\Debug\net6.0\SolvingArrays.deps.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\bin\Debug\net6.0\SolvingArrays.runtimeconfig.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\bin\Debug\net6.0\SolvingArrays.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\bin\Debug\net6.0\SolvingArrays.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.csproj.AssemblyReference.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.AssemblyInfoInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.AssemblyInfo.cs
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.csproj.CoreCompileInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\refint\SolvingArrays.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\SolvingArrays.genruntimeconfig.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\SolvingArrays\obj\Debug\net6.0\ref\SolvingArrays.dll

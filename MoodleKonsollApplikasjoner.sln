@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinioppgaveNyrer", "Miniopp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurePuzzles", "PurePuzzles\PurePuzzles.csproj", "{80E6A747-4756-48DA-9895-EB38D9DBCDA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolvingArrays", "SolvingArrays\SolvingArrays.csproj", "{66C4C268-B2F8-4084-BF18-5E0A966C76E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextCipherWithKey", "TextCipherWithKey\TextCipherWithKey.csproj", "{AA4B8C59-7084-467A-AAC8-EA73AB9E534C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E6A747-4756-48DA-9895-EB38D9DBCDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C4C268-B2F8-4084-BF18-5E0A966C76E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C4C268-B2F8-4084-BF18-5E0A966C76E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C4C268-B2F8-4084-BF18-5E0A966C76E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C4C268-B2F8-4084-BF18-5E0A966C76E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B8C59-7084-467A-AAC8-EA73AB9E534C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B8C59-7084-467A-AAC8-EA73AB9E534C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B8C59-7084-467A-AAC8-EA73AB9E534C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B8C59-7084-467A-AAC8-EA73AB9E534C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
