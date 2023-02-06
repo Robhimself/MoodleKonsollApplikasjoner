@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\TextCipherWithKey\\TextCipherWithKey.csproj": {}
+    "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\Bossfight\\Bossfight.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\TextCipherWithKey\\TextCipherWithKey.csproj": {
+    "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\Bossfight\\Bossfight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\TextCipherWithKey\\TextCipherWithKey.csproj",
-        "projectName": "TextCipherWithKey",
-        "projectPath": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\TextCipherWithKey\\TextCipherWithKey.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\Bossfight\\Bossfight.csproj",
+        "projectName": "Bossfight",
+        "projectPath": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\Bossfight\\Bossfight.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\TextCipherWithKey\\obj\\",
+        "outputPath": "C:\\Users\\rober\\RiderProjects\\MoodleKonsollApplikasjoner\\Bossfight\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
