@@ -1,0 +1,15 @@
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\bin\Debug\net6.0\Bossfight.exe
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\bin\Debug\net6.0\Bossfight.deps.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\bin\Debug\net6.0\Bossfight.runtimeconfig.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\bin\Debug\net6.0\Bossfight.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\bin\Debug\net6.0\Bossfight.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.csproj.AssemblyReference.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.AssemblyInfoInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.AssemblyInfo.cs
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.csproj.CoreCompileInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\refint\Bossfight.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\Bossfight.genruntimeconfig.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Bossfight\obj\Debug\net6.0\ref\Bossfight.dll

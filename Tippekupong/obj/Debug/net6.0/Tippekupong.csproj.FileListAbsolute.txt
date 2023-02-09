@@ -1,0 +1,15 @@
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\bin\Debug\net6.0\Tippekupong.exe
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\bin\Debug\net6.0\Tippekupong.deps.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\bin\Debug\net6.0\Tippekupong.runtimeconfig.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\bin\Debug\net6.0\Tippekupong.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\bin\Debug\net6.0\Tippekupong.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.csproj.AssemblyReference.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.AssemblyInfoInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.AssemblyInfo.cs
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.csproj.CoreCompileInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\refint\Tippekupong.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\Tippekupong.genruntimeconfig.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\Tippekupong\obj\Debug\net6.0\ref\Tippekupong.dll
