@@ -1,0 +1,15 @@
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\bin\Debug\net6.0\TrePaaRad.exe
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\bin\Debug\net6.0\TrePaaRad.deps.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\bin\Debug\net6.0\TrePaaRad.runtimeconfig.json
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\bin\Debug\net6.0\TrePaaRad.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\bin\Debug\net6.0\TrePaaRad.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.csproj.AssemblyReference.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.AssemblyInfoInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.AssemblyInfo.cs
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.csproj.CoreCompileInputs.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\refint\TrePaaRad.dll
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.pdb
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\TrePaaRad.genruntimeconfig.cache
+C:\Users\rober\RiderProjects\MoodleKonsollApplikasjoner\TrePaaRad\obj\Debug\net6.0\ref\TrePaaRad.dll
